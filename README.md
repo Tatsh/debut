@@ -16,4 +16,4 @@ http://www.opensource.org/licenses/mit-license.html
 
 # Nothing short of art
 
-![Screenshot](https://github.com/tatsh/debut/raw/master/screenshot.png "Nothing short art here")
+![Screenshot](https://github.com/tatsh/debut/raw/master/screenshot.png "Nothing short of art right here")
