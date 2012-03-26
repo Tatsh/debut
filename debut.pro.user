@@ -1,0 +1,264 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-CommandLineArguments</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString" >debut.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString" >debut</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseDyldImageSuffix</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseTerminal</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetName</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString" >Qt4ProjectManager.Qt4RunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int" >0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString" >Release</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-Release</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <value key="QtVersionId" type="int" >2</value>
+   <value key="buildDirectory" type="QString" >/home/tatsh/dev/debut</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >ADA_INCLUDE_PATH=/usr/lib64/gnat-gcc/x86_64-pc-linux-gnu/4.3/adainclude</value>
+    <value type="QString" >ADA_OBJECTS_PATH=/usr/lib64/gnat-gcc/x86_64-pc-linux-gnu/4.3/adalib</value>
+    <value type="QString" >ANT_HOME=/usr/share/ant</value>
+    <value type="QString" >CG_COMPILER_EXE=/usr/bin/cgc</value>
+    <value type="QString" >CONFIG_PROTECT=/usr/share/config /usr/kde/3.5/share/config /usr/kde/3.5/env /usr/kde/3.5/shutdown</value>
+    <value type="QString" >CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/env.d/java/ /etc/php/cli-php5/ext-active/ /etc/php/cgi-php5/ext-active/ /etc/php/apache2-php5/ext-active/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/texmf/web2c /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/revdep-rebuild /etc/splash</value>
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-mbrVQlLOEf,guid=39b01240434116d6692597654a816092</value>
+    <value type="QString" >DESKTOP_SESSION=KDE-4</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString" >EDITOR=/bin/nano</value>
+    <value type="QString" >FLTK_DOCDIR=/usr/share/doc/fltk-2.0_pre6786/html</value>
+    <value type="QString" >GCC_SPECS=</value>
+    <value type="QString" >GDK_USE_XFT=1</value>
+    <value type="QString" >GENERATION=2</value>
+    <value type="QString" >GS_LIB=/home/tatsh/.fonts</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/tatsh/.gtkrc-2.0:/home/tatsh/.gtkrc-2.0-kde4:/home/tatsh/.kde4/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/tatsh/.gtkrc::/home/tatsh/.kde4/share/config/gtkrc</value>
+    <value type="QString" >GUILE_LOAD_PATH=/usr/share/guile/1.8</value>
+    <value type="QString" >HOME=/home/tatsh</value>
+    <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.18/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info:/usr/share/info/emacs-22:/usr/share/gnat-gcc-data/x86_64-pc-linux-gnu/4.3/info</value>
+    <value type="QString" >JAVAC=/home/tatsh/.gentoo/java-config-2/current-user-vm/bin/javac</value>
+    <value type="QString" >JAVACC_HOME=/usr/share/javacc/</value>
+    <value type="QString" >JAVA_HOME=/home/tatsh/.gentoo/java-config-2/current-user-vm</value>
+    <value type="QString" >JDK_HOME=/home/tatsh/.gentoo/java-config-2/current-user-vm</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=1000</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >LADSPA_PATH=/usr/lib64/ladspa</value>
+    <value type="QString" >LANG=en_GB.UTF-8</value>
+    <value type="QString" >LC_ALL=en_GB.UTF-8</value>
+    <value type="QString" >LD_LIBRARY_PATH=/usr/lib64/qtcreator::/home/tatsh/usr/lib</value>
+    <value type="QString" >LESS=-R -M --shift 5</value>
+    <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=tatsh</value>
+    <value type="QString" >MANPATH=/home/tatsh/.gentoo/java-config-2/current-user-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.18/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/opt/blackdown-jdk-1.4.2.03/man:/etc/java-config/system-vm/man/:/usr/lib64/php5/man/:/usr/kde/3.5/share/man:/usr/qt/3/doc/man:/usr/share/gnat-gcc-data/x86_64-pc-linux-gnu/4.3/man:/opt/opera/share/man</value>
+    <value type="QString" >OPENGL_PROFILE=xorg-x11</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-tatsh</value>
+    <value type="QString" >PAGER=/usr/bin/less</value>
+    <value type="QString" >PATH=/usr/bin:/usr/local/games/stepmania:/usr/local/bin:/usr/bin:/usr/kde/3.5/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/opt/blackdown-jdk-1.4.2.03/bin:/opt/blackdown-jdk-1.4.2.03/jre/bin:/usr/kde/3.5/bin:/usr/qt/3/bin:/usr/x86_64-pc-linux-gnu/gnat-gcc-bin/4.3:/usr/libexec/gnat-gcc/x86_64-pc-linux-gnu/4.3:/usr/games/bin:/home/tatsh/usr/bin:/home/tatsh/usr/games/bin</value>
+    <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
+    <value type="QString" >PRELINK_PATH_MASK=/usr/lib64/klibc</value>
+    <value type="QString" >PWD=/mnt/share/documents</value>
+    <value type="QString" >PYTHONDOCS=/usr/share/doc/python-docs-2.6.2-r1/html/library</value>
+    <value type="QString" >PYTHONDOCS_2_6=/usr/share/doc/python-docs-2.6.2-r1/html/library</value>
+    <value type="QString" >QMAKESPEC=linux-g++</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/tatsh/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/</value>
+    <value type="QString" >RUBYOPT=-rauto_gem</value>
+    <value type="QString" >SANE_CONFIG_DIR=/etc/sane.d</value>
+    <value type="QString" >SESSION_MANAGER=local/tatshbook:/tmp/.ICE-unix/16399</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=1</value>
+    <value type="QString" >STRIGI_PLUGIN_PATH=/usr/lib64/strigi:</value>
+    <value type="QString" >USB_DEVFS_PATH=/dev/bus/usb</value>
+    <value type="QString" >USER=tatsh</value>
+    <value type="QString" >VMHANDLE=blackdown-jdk-1.4.2</value>
+    <value type="QString" >WINDOWPATH=7</value>
+    <value type="QString" >XCURSOR_THEME=Shere_Khan_X</value>
+    <value type="QString" >XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde-4.2-</value>
+    <value type="QString" >XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >/home/tatsh/dev/debut/debut.pro</value>
+    <value type="QString" >-spec</value>
+    <value type="QString" >/usr/share/qt4/mkspecs/linux-g++</value>
+    <value type="QString" >-r</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/qmake</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/tatsh/dev/debut</value>
+   <value key="buildConfiguration" type="int" >0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >ADA_INCLUDE_PATH=/usr/lib64/gnat-gcc/x86_64-pc-linux-gnu/4.3/adainclude</value>
+    <value type="QString" >ADA_OBJECTS_PATH=/usr/lib64/gnat-gcc/x86_64-pc-linux-gnu/4.3/adalib</value>
+    <value type="QString" >ANT_HOME=/usr/share/ant</value>
+    <value type="QString" >CG_COMPILER_EXE=/usr/bin/cgc</value>
+    <value type="QString" >CONFIG_PROTECT=/usr/share/config /usr/kde/3.5/share/config /usr/kde/3.5/env /usr/kde/3.5/shutdown</value>
+    <value type="QString" >CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/env.d/java/ /etc/php/cli-php5/ext-active/ /etc/php/cgi-php5/ext-active/ /etc/php/apache2-php5/ext-active/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/texmf/web2c /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/revdep-rebuild /etc/splash</value>
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-mbrVQlLOEf,guid=39b01240434116d6692597654a816092</value>
+    <value type="QString" >DESKTOP_SESSION=KDE-4</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString" >EDITOR=/bin/nano</value>
+    <value type="QString" >FLTK_DOCDIR=/usr/share/doc/fltk-2.0_pre6786/html</value>
+    <value type="QString" >GCC_SPECS=</value>
+    <value type="QString" >GDK_USE_XFT=1</value>
+    <value type="QString" >GENERATION=2</value>
+    <value type="QString" >GS_LIB=/home/tatsh/.fonts</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/tatsh/.gtkrc-2.0:/home/tatsh/.gtkrc-2.0-kde4:/home/tatsh/.kde4/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/tatsh/.gtkrc::/home/tatsh/.kde4/share/config/gtkrc</value>
+    <value type="QString" >GUILE_LOAD_PATH=/usr/share/guile/1.8</value>
+    <value type="QString" >HOME=/home/tatsh</value>
+    <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.18/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info:/usr/share/info/emacs-22:/usr/share/gnat-gcc-data/x86_64-pc-linux-gnu/4.3/info</value>
+    <value type="QString" >JAVAC=/home/tatsh/.gentoo/java-config-2/current-user-vm/bin/javac</value>
+    <value type="QString" >JAVACC_HOME=/usr/share/javacc/</value>
+    <value type="QString" >JAVA_HOME=/home/tatsh/.gentoo/java-config-2/current-user-vm</value>
+    <value type="QString" >JDK_HOME=/home/tatsh/.gentoo/java-config-2/current-user-vm</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=1000</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >LADSPA_PATH=/usr/lib64/ladspa</value>
+    <value type="QString" >LANG=en_GB.UTF-8</value>
+    <value type="QString" >LC_ALL=en_GB.UTF-8</value>
+    <value type="QString" >LD_LIBRARY_PATH=/usr/lib64/qtcreator::/home/tatsh/usr/lib</value>
+    <value type="QString" >LESS=-R -M --shift 5</value>
+    <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=tatsh</value>
+    <value type="QString" >MANPATH=/home/tatsh/.gentoo/java-config-2/current-user-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.18/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/opt/blackdown-jdk-1.4.2.03/man:/etc/java-config/system-vm/man/:/usr/lib64/php5/man/:/usr/kde/3.5/share/man:/usr/qt/3/doc/man:/usr/share/gnat-gcc-data/x86_64-pc-linux-gnu/4.3/man:/opt/opera/share/man</value>
+    <value type="QString" >OPENGL_PROFILE=xorg-x11</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-tatsh</value>
+    <value type="QString" >PAGER=/usr/bin/less</value>
+    <value type="QString" >PATH=/usr/bin:/usr/local/games/stepmania:/usr/local/bin:/usr/bin:/usr/kde/3.5/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/opt/blackdown-jdk-1.4.2.03/bin:/opt/blackdown-jdk-1.4.2.03/jre/bin:/usr/kde/3.5/bin:/usr/qt/3/bin:/usr/x86_64-pc-linux-gnu/gnat-gcc-bin/4.3:/usr/libexec/gnat-gcc/x86_64-pc-linux-gnu/4.3:/usr/games/bin:/home/tatsh/usr/bin:/home/tatsh/usr/games/bin</value>
+    <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
+    <value type="QString" >PRELINK_PATH_MASK=/usr/lib64/klibc</value>
+    <value type="QString" >PWD=/mnt/share/documents</value>
+    <value type="QString" >PYTHONDOCS=/usr/share/doc/python-docs-2.6.2-r1/html/library</value>
+    <value type="QString" >PYTHONDOCS_2_6=/usr/share/doc/python-docs-2.6.2-r1/html/library</value>
+    <value type="QString" >QMAKESPEC=linux-g++</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/tatsh/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/</value>
+    <value type="QString" >RUBYOPT=-rauto_gem</value>
+    <value type="QString" >SANE_CONFIG_DIR=/etc/sane.d</value>
+    <value type="QString" >SESSION_MANAGER=local/tatshbook:/tmp/.ICE-unix/16399</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=1</value>
+    <value type="QString" >STRIGI_PLUGIN_PATH=/usr/lib64/strigi:</value>
+    <value type="QString" >USB_DEVFS_PATH=/dev/bus/usb</value>
+    <value type="QString" >USER=tatsh</value>
+    <value type="QString" >VMHANDLE=blackdown-jdk-1.4.2</value>
+    <value type="QString" >WINDOWPATH=7</value>
+    <value type="QString" >XCURSOR_THEME=Shere_Khan_X</value>
+    <value type="QString" >XDG_CONFIG_DIRS=/etc/xdg</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde-4.2-</value>
+    <value type="QString" >XDM_MANAGED=method=classic</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/tatsh/dev/debut</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >Release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="mkspec" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.qmake</value>
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="clean" type="bool" >true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray" >System</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap" />
+ </data>
+</qtcreator>
