@@ -1,9 +1,19 @@
-License: MIT
-No, this does not work 100% yet
+# NOTE
 
-To build:
-qmake
-make
+This does not work 100% yet.
 
-To run:
-./debut
+# License
+
+MIT
+
+http://www.opensource.org/licenses/mit-license.html
+
+# To build and run
+
+    qmake
+    make
+    ./debut
+
+# Nothing short of art
+
+![Screenshot](https://github.com/tatsh/debut/raw/master/screenshot.png "Nothing short art here")
