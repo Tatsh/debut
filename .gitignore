@@ -1,0 +1,7 @@
+.gitignore
+.*~
+*.o
+ui_*
+moc_*
+Makefile
+debut
