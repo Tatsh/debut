@@ -10,6 +10,7 @@
 #include "prefsdialog.h"
 
 using namespace std;
+using namespace TagLib::MPEG;
 
 /**
   * @param parent - first QWidget
@@ -51,7 +52,7 @@ void DebutForm::on_buttonAlbumDir_clicked() {
     textSongFilename->setText(dispFilename);
 
     currentFile = dispFilename.prepend("/").prepend(path);
-    TagLib::MPEG::File *f = new TagLib::MPEG::File::File(currentFile.toUtf8().constData(), true);
+    File *f = new File(currentFile.toUtf8().constData(), true);
 
     // Enable the buttons
     buttonAlbumApply->setEnabled(true);
@@ -262,7 +263,7 @@ void DebutForm::on_buttonAlbumApply_clicked() {
     for (int i = 0; i < mp3s.size(); ++i) {
       temp = mp3s.at(i);
       processFile = temp.prepend("/").prepend(path);
-      TagLib::MPEG::File *f = new TagLib::MPEG::File::File(processFile.toUtf8().constData(), true);
+      File *f = new File(processFile.toUtf8().constData(), true);
       cout << "Modifying " << processFile.toUtf8().constData() << endl;
 
       if (textAlbumArtist->isModified()) {
@@ -343,7 +344,7 @@ void DebutForm::on_buttonSongNext_clicked() {
     QString temp = mp3s.at(index);
     QString src = temp;
     QString processFile = temp.prepend(path);
-    TagLib::MPEG::File *f = new TagLib::MPEG::File::File(processFile.toUtf8().constData(), true);
+    File *f = new File(processFile.toUtf8().constData(), true);
 
     if (textSongSong->isModified()) {
       f->ID3v1Tag()->setTitle(textSongSong->text().toStdWString());
@@ -397,7 +398,7 @@ void DebutForm::on_buttonSongPrev_clicked() {
     QString temp = mp3s.at(index);
     QString src = temp;
     QString processFile = temp.prepend(path);
-    TagLib::MPEG::File *f = new TagLib::MPEG::File::File(processFile.toUtf8(), true);
+    File *f = new File(processFile.toUtf8(), true);
 
     if (textSongSong->isModified()) {
       if (!modified)
@@ -456,7 +457,7 @@ void DebutForm::loadNPSong() {
   QString temp = mp3s.at(index);
   textSongFilename->setText(temp);
   QString processFile = temp.prepend(path);
-  TagLib::MPEG::File *f = new TagLib::MPEG::File::File(processFile.toUtf8(), true);
+  File *f = new File(processFile.toUtf8(), true);
 
   textSongSong->setText(QString::fromStdWString(f->ID3v2Tag()->title().toWString()));
   textSongTrackNum->setText(QString::number(f->ID3v2Tag()->track()));
