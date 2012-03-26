@@ -11,3 +11,5 @@ INCLUDEPATH += . /usr/include
 HEADERS += debutform.h prefsdialog.h
 FORMS += debutform.ui prefsdialog.ui
 SOURCES += debutform.cpp main.cpp prefsdialog.cpp
+
+LIBS += -ltag
